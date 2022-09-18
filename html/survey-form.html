@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <script defer href="main.js"></script>
+    <!-- <div id="heading">
+    <h1 id="title">Favorite Sports Survey Form</h1>
+    <p id="description"><em>Thank you for taking this survey to help improve data anayltics</em></p>
+    </div> -->
+</head>
+  <div class="main-container">
+
+<div id="heading">
+    <h1 id="title">Favorite Sports Survey Form</h1>
+    <p id="description"><strong>Thank you for taking this survey to help improve data anayltics</strong></p>
+</div>
+
+<body>
+    <!-- <br>
+    <br>
+    <br>
+    <br> -->
+<div id="container">
+<form id="survey-form">
+<label id="name-label">Name
+    <br>
+    <input id="name"type="text" placeholder="Enter your name" required/>
+</label>
+<br>
+<br>
+<label id="email-label">Email
+    <br>
+    <input id="email"type="email" placeholder="Enter your email" required/>
+</label>
+<br>
+<br><label id="number-label">Age
+    <br>
+    <input id="number"type="number" placeholder="Enter your age" min =7 max= 100 required/>
+</label>
+<br>
+<br>
+<label>What best describes you?
+    <br>
+    <select name="person" id="dropdown">
+    <option value="default" >---Select what best fits you---</option>
+    <option value="athlete">Athlete</option>
+    <option value="hardcore">Sports Junkie</option>
+    <option value="casual">Casuaul fan</option>
+</select></label>
+<br>
+<br>
+<label>How many hours a week do you watch sports?
+    <br>
+</label>
+<input type="radio" id="player" name="hours" value="player"/>
+
+<label for="player">0-9hrs</label><br>
+<input type="radio" id="aggro" name="hours" value="inter"/><label for="aggro">10-15hrs</label><br>
+<input type="radio" id="passive" name="hours"value="advanced"/><label for="passive">20hrs+</label>
+</label>
+<br>
+<br>
+<label>How long have you been a sports fan?
+    <br>
+    <br><select name="time-period" id="time-as-fan">
+    <option value="default" >---Enter length of fandom---</option>
+    <option value="rookie">Less than 10 years</option>
+    <option value="intermediate">10 or more years</option>
+    <option value="lifer">Since Birth </option>
+</select></label>
+<br>
+<br>
+<label id="favs-label">What is/are your favorite sport(s)? (Check all that apply)
+    <br>
+    <br>
+    <input type="checkbox" name="sport" value=" Basketball"/> Basetball<br> 
+    <input type="checkbox" name="sport" value=" Boxing"/> Boxing<br>
+    <input type="checkbox" name="sport" value="Baseball"/> Baseball<br>
+    <input type="checkbox" name="sport" value="football"/> Football<br>
+    <input type="checkbox" name="sport" value="Soccer"/> Soccer<br>
+    <input type="checkbox" name="sport" value="Tennis"/> Tennis<br>
+    <input type="checkbox" name="sport" value="Golf"/> Golf<br>
+    <input type="checkbox" name="sport" value="Hockey"/> Hockey<br>
+    <input type="checkbox" name="sport" value="Swimming"/> Swimming<br>
+</label>
+
+<br> 
+
+<p id="final">What recommendations do you have to make your favorite sports league better?</p>
+
+<textarea id="text" name="w3review" rows="9" cols="60" placeholder="Enter suggestions here..."></textarea>
+<br>
+<br>
+<input type="submit" value="Sumbit" id="submit">
+</form>
+</div>
+</body>
+</div>
+</html>

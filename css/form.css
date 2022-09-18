@@ -1,0 +1,118 @@
+#container{
+    display:grid;
+    
+     border-color:lightpink;
+     justify-content: center;
+     
+     font-size: larger;
+     box-sizing: border-box;
+     background-color: #101357;
+     opacity: 85%;
+     font-family: 'Poppins', sans-serif;
+     line-height: 1.4;
+     color:white;
+     border-radius:5px;
+     position: static;
+    
+    width:650px;
+    grid-column: 2/3;
+    background-repeat: no-repeat; 
+   margin: 30px auto;
+   padding: 25px auto;
+   
+ }
+ #title{
+     text-align:center ;
+     font-size: 50px;
+     color:darkblue
+ }
+ #heading{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+    /* margin-top: -20px; */
+  grid-column: 2/3;
+     
+ }
+ #description{
+     /* margin-top:-10px; */
+     font-size: 23px;
+     color:goldenrod;
+ 
+ }
+ #name{
+     width:550px;
+     height:30px;
+     font-size:15px;
+     border-radius: 5px;
+ }
+ #email{
+     width:550px;
+     height:30px;
+     font-size:15px;
+     border-radius: 5px;
+ }
+ #number{
+     width:550px;
+     height:30px;
+     font-size:15px;
+     border-radius: 5px;
+ }
+ #favs-label{
+     font-size: 17px;
+     ;
+ }
+ #dropdown{
+     width:550px;
+     height:50px;
+     font-size:25px;
+     text-align: center;
+     border-radius: 5px;
+ }
+ #time-as-fan{
+     width:550px;
+     height:50px;
+     font-size:25px;
+     border-radius: 5px;
+ }
+ #submit{
+     width: 550px;
+     margin:0px auto;
+     background-color: green;
+     font-size:25px;
+     border-color: green;
+     color: whitesmoke;
+     border-radius: 5px;
+     margin-bottom: 15px;
+ }
+ #text{
+     margin-left: 0px;
+     width:545px;
+     height:90px;
+     font-size:15px
+ }
+ .main-container{
+     /* background-image: url(https://the18.com/sites/default/files/styles/feature_image_with_focal/public/feature-images/20180728-The18-Image-Most-Popular-Sports2.jpg?itok=RwJjEM0S); */
+    background-repeat: no-repeat; 
+    /* margin:50px 0px 50px 50px; */
+    background:  url(https://the18.com/sites/default/files/styles/feature_image_with_focal/public/feature-images/20180728-The18-Image-Most-Popular-Sports2.jpg?itok=RwJjEM0S) 0 0 no-repeat;
+    position:static;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+   border: 25px solid black;
+   
+  
+    
+ }
+ #final{
+     font-size:17px
+ }
+ #survey-form{
+     /* position: relative; */
+     padding: 25px auto;
+ }
+ body{
+    background-color: black;
+ }
+ 
